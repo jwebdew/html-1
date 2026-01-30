@@ -1,0 +1,26 @@
+p.138
+position 위치이동해주는 속성
+position의 속성값
+
+static : 기본값
+fixed : 브라우저 기준 위치 고정
+relative : 위치를 강제로 이동해주고자 할때, 또는 위아래 위치값 변화시켜줄때
+absolute : 부모의 position을 기준으로 좌표값 달라짐.
+	부모가 position이 없다면 position:relative 작성해주기
+sticky : 부모영역 안에서 고정
+
+div {
+    position:absolute;
+    top: 숫자px; 
+    left: 숫자px;
+}
+
+09_position.html
+10_이미지위에텍스트.html
+
+
+
+
+
+
+
